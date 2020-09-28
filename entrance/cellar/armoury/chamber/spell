@@ -33,7 +33,7 @@ In Bash, a symbolic link (symlink) is a *shortcut* to
 another file or directory.  Create one from this room to the
 adjacent one:
 
-ln -fs ../../../chapel/courtyard/aviary/hall portal
+ln -fs ../../../../chapel/courtyard/aviary/hall portal
 
 EOF
 else
