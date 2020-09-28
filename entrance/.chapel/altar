@@ -33,7 +33,7 @@ else
     printf "Do you want to take the trinket for yourself? "
     read RESP
     if [ "$RESP" = "y" -o "$RESP" = "Y" ]; then
-        echo "Remember to add the trinket to your inventory!"
+        echo "Remember to add the trinket to your inventory with `export I=trinket,$I`"
         touch .curse
     else
         cat << EOF
